@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      border-style:groove ;
+      background-color:aquamarine;
+      padding: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    select {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button[type="submit"],
+    button[type="reset"] {
+      flex-basis: 48%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    #hasil {
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: aquamarine;
+      border-radius: 4px;
+    }
+
+    #hasil h2 {
+      margin-top: 0;
+    }
+
+    #hasil p {
+      margin-bottom: 5px;
+    }
+
